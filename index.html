@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MovingNotebook: Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/main.css" />
+</head>
+<body>
+    <div id="tools">
+    <div id="nm" contenteditable>Name</div>
+    <div id ="size" contenteditable>12</div>
+    <div id="bl" onclick="setColor('#0000FF')"></div>
+    <div id="rd" onclick="setColor('#FF0000')"></div>
+    <div id="gr" onclick="setColor('#008000')"></div>
+    <div id="yl" onclick="setColor('#FFFF00')"></div>
+    <div id="br" onclick="setColor('Brown')"></div>
+    <div id="pr" onclick="setColor('Purple')"></div>
+    <div id="pi" onclick="setColor('Pink')"></div>
+    <div id="b" onclick="setColor('#000000')"></div>
+    <div id="er" onclick="setColor('#FFFFFF')"></div>
+    <button class="button" onclick="cls()">Clear</button>
+    <button class="button" id="save" onclick="sve()">Save</button>
+    <button class="button" onclick="lod()">Load</button>
+    </div>
+	<div id="spacer"></div>
+    <canvas id="main" width="1200" height="500"></canvas>
+    <script src="src/script.js"></script>
+</body>
+</html>

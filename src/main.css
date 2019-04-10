@@ -1,0 +1,161 @@
+canvas{
+    background-color: white;
+    border:0px solid black;
+    border-radius: 1em;
+    position:relative;
+    left: 3em;
+    top: 0px;
+}
+
+div{
+    background: white;
+    width: 5em;
+    display:inline-block;
+    border-style: 1px solid;
+    padding: 1em;
+    margin: 1em;
+}
+#tools{
+    border-radius: 1em;
+    position: relative;
+    left: 1em;
+    width: 75em;
+    top: 1em;
+}
+
+#spacer{
+    position: relative;
+    left: 5px;
+    background-color: orange;
+    padding: 0em;
+    border: orange;
+    width: 40em;
+}
+#nm{
+    border: solid black;
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 1em;
+}
+#size{
+    border: solid black;
+    border-radius: 1em;
+    font-family: sans-serif;
+    text-align: center;
+}
+#colors{
+    display: inline-block;
+    width: 30em;
+    height: 1em;
+}
+
+#bl{
+    outline-color: black;
+    background-color: blue;
+    border-style:solid black;
+    width: .5em;
+    display:inline-block;
+    padding: .5em;
+    position: relative;
+    top: 20px;
+}
+#rd{
+    background-color: red;
+    border-style:none;
+    width: .5em;
+    display:inline-block;
+    padding: .5em;
+    position: relative;
+    top: 20px;
+}
+#gr{
+    background-color: green;
+    border-style:none;
+    width: .5em;
+    display:inline-block;
+    padding: .5em;
+    position: relative;
+    top: 20px;
+}
+#yl{
+    background-color: yellow;
+    border-style:none;
+    width: .5em;
+    display:inline-block;
+    padding: .5em;
+    position: relative;
+    top: 20px;
+}
+#br{
+    background-color: brown;
+    border-style:none;
+    width:.5em;
+    display:inline-block;
+    padding:.5em;
+    position: relative;
+    top: 20px;
+}
+#pr{
+    background-color: purple;
+    border-style:none;
+    width:.5em;
+    display:inline-block;
+    padding:.5em;
+    position: relative;
+    top: 20px;
+}
+#pi{
+    background-color: pink;
+    border-style:none;
+    width:.5em;
+    display:inline-block;
+    padding:.5em;
+    position: relative;
+    top: 20px;
+}
+#b{
+    background-color: black;
+    border-style:none;
+    width: .5em;
+    display:inline-block;
+    padding: .5em;
+    position: relative;
+    top: 20px;
+}
+#er{
+    background-color: white;
+    border-style:none;
+    width: .5em;
+    display:inline-block;
+    padding: .5em;
+    position: relative;
+    top: 20px;
+}
+#ban{
+    position: relative;
+    width: 500px;
+    height: 60%;
+    left: 90px;
+}
+.button{
+    border-style: solid black;
+    background-color: white;
+    font-size: 16px;
+    padding: 1em 1em;
+    border-radius: 1em;
+
+}
+[contenteditable]{
+    outline:none;
+}
+
+button{
+    outline: none;
+    display:inline-block;
+}
+body{
+    background-color: orange;
+    user-select: none;
+    -moz-user-select: nonte;
+}
